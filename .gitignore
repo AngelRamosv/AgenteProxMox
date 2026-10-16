@@ -1,0 +1,42 @@
+# Entorno Virtual de Python
+.venv/
+venv/
+env/
+ENV/
+
+# Archivos de caché y compilación
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Archivos pesados / ejecutables
+*.exe
+*.dll
+*.msi
+
+# Archivos temporales de imágenes y capturas
+*.png
+*.jpg
+*.jpeg
+*.bmp
+ocr_tmp*.png
+teams_latest*.png
+canvas_debug*.png
+*.html_dump
+*.log
+
+# Entornos y configuración local
+.env
+.env.local
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Carpetas de diagnósticos pesados (opcional)
+dev_tools/samples_and_dumps/
+dev_tools/diagnostics/tesseract_setup.exe
